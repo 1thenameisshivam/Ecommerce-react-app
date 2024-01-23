@@ -1,8 +1,29 @@
-# React + Vite
+# E-BAZAR 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+E-BAZAR is an e-commerce website built using React, Tailwind CSS, and Redux. The application fetches product data from the Platzi Fake Store API, allowing users to browse products, add them to the cart, and manage their shopping experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack 🚀
+
+- **React**: A JavaScript library for building user interfaces.
+- **Tailwind CSS**: A utility-first CSS framework for quickly styling your web projects.
+- **Redux**: A predictable state container for JavaScript applications.
+- **react-router-dom**: A collection of navigation components for declarative routing in React.
+
+## Additional Packages 📦
+
+- **toastify**: A library for displaying toasts or notifications in the application.
+- **tailblocks**: A collection of pre-designed Tailwind CSS blocks for fast UI development.
+- **react-awesome-stars-rating**: A React component for creating star ratings.
+
+## Features 🌟
+
+- **Shimmer UI**: Enhances user experience with a shimmer effect while loading data.
+- **Add Product**: Users can add products to their shopping cart.
+- **Cart Page**: A dedicated page to view and manage the items in the shopping cart.
+- **Increment and Decrement**: Change the quantity of products in the cart.
+- **Delete from Cart**: Remove items from the cart.
+- **Online/Offline Status**: Unique feature displaying the user's online or offline status.
+
+## Getting Started 🚀

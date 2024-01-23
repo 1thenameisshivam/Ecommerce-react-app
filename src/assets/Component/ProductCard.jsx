@@ -13,7 +13,6 @@ const ProductCard = ({img,name,price,category,id}) => {
               <h2  className="text-gray-900 title-font text-lg font-medium">{name}</h2>
               <p  className="mt-1">₹ {(price)*82}</p>
              </div>
-             <button className='bg-blue-500 text-white rounded-lg ml-1 p-1 px-4'>Cart</button> 
            </div>
          
         </div>
