@@ -6,12 +6,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './assets/Pages/Home.jsx';
-import About from './assets/Pages/About.jsx';
-import CheckOut from './assets/Pages/CheckOut.jsx';
+import Home from './Pages/Home.jsx';
+import About from './Pages/About.jsx';
+import CheckOut from './Pages/CheckOut.jsx';
 import { Provider } from 'react-redux';
-import AppStore from './assets/Utils/AppStore.js';
-import Product from './assets/Pages/Product.jsx';
+import AppStore from './Utils/AppStore.js';
+import Product from './Pages/Product.jsx';
 
 const router = createBrowserRouter([
   {
