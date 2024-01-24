@@ -12,6 +12,7 @@ import CheckOut from './Pages/CheckOut.jsx';
 import { Provider } from 'react-redux';
 import AppStore from './Utils/AppStore.js';
 import Product from './Pages/Product.jsx';
+import ErrorPage from './Pages/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,8 @@ const router = createBrowserRouter([
         path:"/product/:pid",
         element:<Product/>
       }
-    ]
+    ],
+    errorElement:<ErrorPage/>
   },
 ]);
 

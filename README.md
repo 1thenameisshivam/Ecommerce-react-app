@@ -16,6 +16,7 @@ E-BAZAR is an e-commerce website built using React, Tailwind CSS, and Redux. The
 - **toastify**: A library for displaying toasts or notifications in the application.
 - **tailblocks**: A collection of pre-designed Tailwind CSS blocks for fast UI development.
 - **react-awesome-stars-rating**: A React component for creating star ratings.
+- **tailgrail**: A React component provider.
 
 ## Features 🌟
 
@@ -25,5 +26,8 @@ E-BAZAR is an e-commerce website built using React, Tailwind CSS, and Redux. The
 - **Increment and Decrement**: Change the quantity of products in the cart.
 - **Delete from Cart**: Remove items from the cart.
 - **Online/Offline Status**: Unique feature displaying the user's online or offline status.
+- **Error PAge** :Error page added for invalid url to give better ui-experiance
+- **About Us page** : About us section
+- **Search Products** : you can search the productst
 
 ## Getting Started 🚀
