@@ -18,17 +18,18 @@ const CheckOut = () => {
     dispatch(clearCart())
     toast.success("Order Sucess",{
       theme:"colored",
+      position: "top-center",
     });
   }
-  if(data.length==0) return <h1 className='flex items-center justify-center h-[630px] text-white bg-blue-600 font-mono text-5xl' >Cart IS Empty</h1>
+  if(data.length==0) return <div><h1 className='flex items-center justify-center h-[630px] text-white bg-blue-600 font-mono text-5xl' >Cart IS Empty</h1><ToastContainer position="top-center" theme={"colored"} /></div>
   return (
-    <div className='w-screen min-h-screen bg-indigo-500 pt-20 h-auto  flex justify-center gap-7' >
-      <div className='w-[60%]'>
+    <div className='w-screen min-h-screen bg-indigo-500 pt-20 h-auto  flex md:flex-row flex-col justify-center gap-7' >
+      <div className='md:w-[60%] w-screen'>
       {
           data.map(data=><CartProduct img={data.images[0]} name={data.title} id={data.id} qty={data.count} />)
         }
       </div>
-      <div className='w-[30%] shadow-black shadow-lg bg-white font-mono h-44 flex flex-col items-center justify-center rounded-lg mt-20'>
+      <div className='md:w-[30%] h-auto shadow-black shadow-lg bg-white font-mono h-44 flex flex-col items-center justify-center rounded-lg mt-20'>
          <h1>Total Price:₹ {price}</h1>
          <h1>Delivery Charges:₹ 55.00</h1>
          <h1>Discount:₹ 500</h1>
@@ -37,6 +38,7 @@ const CheckOut = () => {
       </div>
       <ToastContainer position="top-center" theme={"colored"} />
     </div>
+   
   )
 }
 

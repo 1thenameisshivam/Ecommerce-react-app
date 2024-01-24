@@ -16,7 +16,7 @@ const Home = () => {
   if(data===null) return <Shimmer/>
   return (
     <div className='container mt-20 -z-10 mx-auto px-5 py-24' >
-    <div className='flex justify-center'><form onSubmit={(e)=>e.preventDefault()} className='mb-5'>
+    <div className='flex justify-center w-screen md:w-auto'><form onSubmit={(e)=>e.preventDefault()} className='mb-5'>
       <input ref={item} className='p-2 text-black border mr-2 rounded-md' placeholder='Search Products? ' type='text'></input>
       <button onClick={()=>{dispatch(searchProduct(item.current.value))}} className='bg-blue-500 text-white p-2 px-4 rounded-md' >Search</button>
       <button onClick={()=>{dispatch(allItem())}} className='bg-blue-500 ml-2 text-white p-2 px-4 rounded-md' >All Products</button>

@@ -14,7 +14,7 @@ const Header = () => {
    const online=useOnline()
   return (
     <div>
-        <header className="text-gray-600 body-font z-10 shadow-lg w-full bg-white fixed top-0">
+        <header className="text-gray-600 body-font z-50 shadow-lg w-full bg-white fixed top-0">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                  <Link to={"/"} className=" cursor-pointer flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
                  <span className='text-2xl bg-blue-500 text-white p-2 rounded-full' ><BsShop/></span>

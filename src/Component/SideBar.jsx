@@ -12,7 +12,7 @@ const SideBar = ({toggle}) => {
     const price=useSelector(store=>store.store.totalPrice)
     console.log(data)
   return (
-    <div className={` md:w-1/3 ${toggle?'-translate-x-0':'translate-x-[100%]'}  duration-500 right-0   w-full fixed top-0  min-h-screen h-auto  z-20 bg-purple-500`}>
+    <div className={` md:w-1/3 ${toggle?'-translate-x-0':'translate-x-[100%]'}  duration-500 right-0   w-full fixed top-0  min-h-screen h-auto  z-50 bg-purple-500`}>
      <div>
         <div className='flex justify-between p-4 text-white'>
         <h1 className='text-2xl' >𝕄𝕪 ℂ𝕒𝕣𝕥</h1>
